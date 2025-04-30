@@ -21,10 +21,10 @@ export const Form = ({
   successMessage = "Success!",
   submitText = "Submit",
 }: FormProps) => {
-  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // await onsubmit(e);
-  };
+  // const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   // await onsubmit(e);
+  // };
   return (
     <>
       <form
