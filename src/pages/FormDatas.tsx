@@ -4,7 +4,7 @@ import {
   deleteTodo,
   getAllTodos,
   updatedTodo,
-} from "../services/authServices";
+} from "../services/todoServices";
 import toast from "react-hot-toast";
 import { Plus, Save, SquarePen, Trash2, X } from "lucide-react";
 import Loader from "../components/Loader";
