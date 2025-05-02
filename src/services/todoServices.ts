@@ -2,7 +2,7 @@ import { api } from "../api";
 
 export const getAllTodos = async () => {
   try {
-    const response = await api.get("/checkTodo", { withCredentials: true });
+    const response = await api.get("/getTodos", { withCredentials: true });
     // console.log(response.data, "getTodos");
     return response.data;
   } catch (error: any) {
