@@ -191,11 +191,11 @@ const FormDatas = () => {
               <Loader />
             </div>
           ) : todos.length > 0 ? (
-            <ul className="divide-y divide-gray-200">
+            <ul className="flex flex-col gap-3 p-3">
               {todos.map((todo) => (
                 <li
                   key={todo._id}
-                  className="p-4 transition-colors hover:bg-gray-50"
+                  className="p-4 transition-colors hover:bg-gray-50 rounded-md border border-gray-200"
                 >
                   {editingId === todo._id ? (
                     <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
